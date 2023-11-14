@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+                        /* removed the . before header to change from a class to a tag as it is the only header on the page and can operate directly and independently */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,6 +25,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
+                        /* changed the div to nav to reflect the html as these are links navigating you elsewhere. */ 
 
 header nav {
     padding-top: 15px;
@@ -50,6 +54,8 @@ p {
     font-size: 16px;
 }
 
+/* changed to figure to mirror html semantic tag */
+
 figure {
     height: 800px;
     width: 100%;
@@ -74,6 +80,8 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
+
+                        /* assigned class to 'links' as code was very repetitive here. Removed any excess code. Where this class is now assigned to all 3 elements the below can be applied to all without writing the code 3 times over. */
 
 .links {
     margin-bottom: 20px;
@@ -103,6 +111,7 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* this is a similar issue as the 'links' section. I have grouped them into a class called 'benefit' to save space and have less code repeating itself. */
 
 .benefit {
     margin-bottom: 32px;
