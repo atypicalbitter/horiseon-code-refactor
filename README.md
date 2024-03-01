@@ -57,5 +57,10 @@ Original code was provided by EdX.
 ## Deployed Link
 * [Click here to see deployed link](https://atypicalbitter.github.io/horiseon-code-refactor/)
 
+## Comments
+### These are the comments left from the grader of my assignment. 
+#### Final Grade = 100/100
+"Hey there, Matt! Great job on this assignment! You have made great use of semantic HTML and have properly commented on your CSS file. You were also able to consolidate any redundant code and really clean this file up! Excellent work! Nice job on your README as well!"
+
 ## Author
  * [Matt Dudman](https://github.com/atypicalbitter)
